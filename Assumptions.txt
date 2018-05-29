@@ -1,0 +1,8 @@
+Assumptions
+-----------
+1. Computer has got enough memory buffer to handle the JSON file read
+2. Even though output is ordered based on the average, no specific ordering specified for output. So no specific sorting applied on the ouput.
+3. Output is sorted based on the sensor id in acending order.
+
+
+

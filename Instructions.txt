@@ -1,0 +1,10 @@
+How to run the program
+======================
+
+1. Compile cpp file compatible with C++11 with the following command
+    ..../bin/clang++  -std=c++11 -I. SensorDataProcessor.cpp -o SDP
+	
+2. Create a JSON file
+
+3. Run the application from command line as the JSON data file name as the argument value
+	./SDP -i sample.json

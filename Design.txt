@@ -1,0 +1,21 @@
+Design
+------
+1. Program is written using C++11.
+
+2. Used boost library on top of the standard library to parse the JSON file.
+
+3. Class Sensor designed to hold the sensor id and temperature reading in a vector. 
+
+4. Timestamp information is not stored in the sensor object, Class TemperatureReading is designed to hold timestamp and temperature information for future evolution.
+
+5. Exception class TDPException added in case to notify the user with appropriate error.
+
+6. Map<sensorId, Sensor> created to store the sensor related information to keep in mind that accessing any sensor related data with logarithmic complextiy.
+
+7. Average calculation is contant time operation as the sum is calculated while adding the temperature to the Sensor object.
+
+8. Vector holding the termperature reading is sorted prior to median and mode calculation.
+
+9. For mode calculation, I am using the slicing window approach where I will be moving the 2 iterators based on the presence of same element. 
+
+

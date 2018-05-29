@@ -1,0 +1,7 @@
+Industrialisation of the solution
+=================================
+1. Create unit test cases
+
+2. Add logging
+
+
